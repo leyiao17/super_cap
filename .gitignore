@@ -1,0 +1,44 @@
+﻿build/
+dist/
+*.log
+*.tmp
+*.bak
+*~
+.env
+.env.*
+.DS_Store
+Thumbs.db
+Desktop.ini
+data/
+# ===== Keil build output =====
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.lst
+*.list
+*.build_log.htm
+
+# Keil user-specific files
+*.uvguix.*
+*.uvgui.*
+
+# ===== STM32 build folders =====
+Debug/
+Release/
+build/
+Build/
+
+# ===== GitX tool =====
+gitx_ultimate*.ps1
+
+# ===== Temporary =====
+*.tmp
+*.log
